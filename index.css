@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 1px;
+    background-color: #000000;
+    text-decoration: none;
+    font-family: 'Tektur', cursive;
+}
+
+h1,
+nav,
+button {
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    display: flex;
+    padding: 30px 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#categories {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+}
+
+#goku {
+    background-position: center;
+    height: 700px;
+    width: 1400px;
+    background-attachment: fixed;
+
+}
+
+p {
+    padding: 3px;
+}
+#aboutme{
+    color: white;
+}
+#myinsta{
+    
+    color: white;
+    justify-content: space-between;
+
+    display: inline-block;
+
+}
+#insta{
+    font-size: 50px;
+    padding: 0px 36px 0px 138px;
+    color: white;
+    height: 150px;
+    width: 100px;
+    display: inline-block;
+}
+footer{
+    color: white;
+
+}
+.content{
+    margin: 10px;
+    padding: 10px;
+}
+#image1,#image2{
+    height: 300px;
+    width: 400px;
+}
+h2{
+    color: white;
+    padding: 10px 50px 50px 50px;
+}
+.steps{
+    padding: 0px 50px;
+    color: white;
+}
+#video{
+    padding: 50px;
+}

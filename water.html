@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Learnovation</title>
+
+</head>
+<header>
+    <h1><a href="index.html"> Learnovation</a></h1>
+    <nav>
+        <a href="home.html" id="categories">Home</a>
+        <a href="credits.html" id="categories">Credits</a>
+        <a href="contact.html" id="categories">Contact</a>
+        <a href="about.html" id="categories">About</a>
+    </nav>
+    <p>
+        
+        <button>LOGIN</button>
+        <button>Signup</button>
+    </p>
+</header>
+<body>
+<div class="content">
+    <h2><a href="water.html">Water level indicator</a></h2>
+</div>
+<div id="video">
+    <iframe width="860" height="515" src="https://youtu.be/XBLvNbN4gEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<h3> Here's a step-by-step guide:</h3>
+<div class="steps">
+    <h3>Step 1: Gather the Components</h3>
+    <img src="" alt="">
+    <p>Make sure you have all the required components: Arduino Uno board, water level sensor (e.g., ultrasonic sensor or float sensor), breadboard, jumper wires, a buzzer, red LED, green LED, and yellow LED.</p>
+    <h3>Step 2: Connect the Components</h3>
+    <img src="https://robu.in/wp-content/uploads/2021/03/MicrosoftTeams-image-16.png" alt="circuit">
+    <ul>
+        <li>Connect the VCC and GND pins of the water level sensor to the 5V and GND pins of the Arduino Uno, respectively.</li>
+        <li>Connect the signal pin of the water level sensor to a digital pin on the Arduino Uno (e.g., pin 7).</li>
+        <li>Connect the red LED's anode (longer leg) to pin 9 on the Arduino and the cathode (shorter leg) to GND through a current-limiting resistor (220 ohms).</li>
+        <li>Connect the green LED's anode to pin 10 on the Arduino and the cathode to GND through a current-limiting resistor (220 ohms).</li>
+        <li>Connect the yellow LED's anode to pin 11 on the Arduino and the cathode to GND through a current-limiting resistor (220 ohms).</li>
+        <li>Connect the positive (anode) of the buzzer to pin 12 on the Arduino and the negative (cathode) to GND.</li>
+    </ul>
+    <h3>Step 3: Code the Arduino</h3>
+    <p>upload the code in the video></video></p>
+
+    <h3>Step 4: Test the Water Level Indicator</h3>
+    <p>the water level sensor detects water, the red LED and buzzer will turn on, indicating a high water level. When there is no water detected, the green and yellow LEDs will be on, indicating a low water level.</p>
+    <p><b>Note: </b>The code provided is a basic example and assumes that the water level sensor output is connected to a digital pin and gives a HIGH signal when water is detected. Depending on the water level sensor you use, you may need to adjust the code accordingly.</p>
+
+</div>
+
+</body>
+</html>
